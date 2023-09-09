@@ -1,0 +1,21 @@
+#BoxCat::-webkit-scrollbar {
+  width: 0px; /* Esconder a scrollbar de Categorias */
+}
+
+#BoxPal::-webkit-scrollbar-track {
+  border: 1px solid #95989A;
+  background-color: white;
+}
+
+#BoxPal::-webkit-scrollbar {
+  width: 6%;
+  background-color: white;
+}
+
+#BoxPal::-webkit-scrollbar-thumb {
+  background-color: #95989A;
+}
+
+#Credbox::-webkit-scrollbar {
+  width: 0px; /* Esconder a scrollbar de Categorias */
+}

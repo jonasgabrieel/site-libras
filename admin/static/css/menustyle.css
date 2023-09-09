@@ -1,0 +1,97 @@
+body{
+    height: 100%;
+    margin: 0%;
+}
+
+@font-face{
+    font-family: 'AllerDisplay';
+    font-style: normal;
+    font-weight: normal;
+    src: local('AllerDisplay'), url('../..//..//static/fonts/AllerDisplay.ttf') format('ttf');
+}
+
+#menulateral{
+    float: left;
+    height: 100%;
+    min-height: 100%;
+    width: 5%;
+    background-color: #99BFD3;
+}
+
+#menulogoimg{
+  float:right;
+  height: 50%;
+  width: 30%;
+  margin-top: 10%;
+  margin-right: 7%;
+}
+
+#option{
+    margin-top: 5%;
+    margin-left: 7%;
+    width: 50%;
+    display: inline-block;
+    font-family: 'AllerDisplay';
+}
+
+.hover:hover{
+    cursor: pointer;
+}
+
+.BT{
+  background-color: #99BFD3;
+  border: none;
+  color: black;
+  height:7%;
+  width: 70%;
+  margin-top: 2%;
+  margin-left: 3%;
+  text-align: center;
+  text-indent: 2%;
+  text-decoration: #95989A;
+  font-size: 30px;
+  border-radius: 3%;
+}
+
+#menuufs{
+    clear: right;
+    float: right;
+    height: 15%;
+    width: 15%;
+    margin-right: 1%;
+    margin-top: 5%;        
+}
+
+#menuuserimg{
+    float: left;
+    height: 16%;
+    width: 8%;
+    margin-top: 2%;
+    margin-left: 1%;
+    border-radius:50%;
+    overflow: hidden;
+    box-shadow: 3px 3px 5px #555;
+}
+
+#menuuserinfo{    
+    float:left;
+    margin-top: 4%;
+    margin-left: 3%;
+    font-family: 'AllerDisplay';
+    font-size: 22px;
+}
+
+#icones{
+    margin-top: 55%;
+    height: 7%;
+    width: 70%;
+}
+
+.iconorganizer{
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+.iconorganizer{
+    cursor: pointer;
+}

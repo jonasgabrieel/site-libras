@@ -1,0 +1,19 @@
+#BuscarTxt {
+  width: 400px;
+  height: 40px;
+  border: none;
+  background-color: #7da2af;  
+}
+
+#BoxCat{
+    height: 400px;
+    width: 250px;
+    overflow: auto;
+}
+
+
+#BoxPal{
+    height: 400px;
+    width: 250px;
+    overflow: auto;
+}

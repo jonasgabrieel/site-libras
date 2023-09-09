@@ -1,0 +1,284 @@
+
+@font-face {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe UI'), url('../fonts/segoeui.woff') format('woff');
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.letters, .lettersC {
+  color: #95989A;
+}
+
+.lettersC {
+  float: left;
+  clear: both;
+  padding-bottom: 10%;
+  font-size: 2em;
+}
+
+.lettersC:hover {
+  cursor: pointer;
+}
+
+header, #footer {
+  position: fixed;
+  background-color: #D1D1F5;
+  width: 100%;
+  padding-bottom: 0.5%;
+  padding-top: 0.5%;
+}
+
+#add {
+  clear: both;
+  position: absolute;
+  right: 5%;
+  top: 60%;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+#input_query {
+  width: 15%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #D1D1F5;
+  background-image: url('../img/lupa.png');
+  background-size: 25px;
+  background-position: 20px 1px;
+  background-repeat: no-repeat;
+  padding: 0.5% 0% 0.5% 5%;
+  margin-left: 3%;
+  margin-top: 5%;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  outline: 0;
+}
+
+#input_query:focus {
+  width: 30%;
+}
+
+.title {
+  text-align: center;
+  font-size: 3.0em;
+}
+
+#dicionario {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#categoria, #palavras {
+  font-size: 3em;
+  padding-left: 5%;
+  padding-top: 3%;
+}
+
+#categoria {
+  color: black;
+  float: left;
+  padding-right: 5%;
+}
+
+#palavras {
+  color: #D1D1F5;
+  clear: right;
+}
+
+#BoxCat, #BoxPal {
+  float: left;
+  height: 50%;
+  overflow: auto;
+}
+
+#BoxCat {
+  padding-left: 3.8%;
+  margin-top: 3%;
+  display: inline;
+}
+
+#BoxPal {
+  clear: right;
+  width: 18%;
+  padding-left: 3%;
+  margin-top: 3%;
+}
+
+.resultado {
+  float: left;
+  clear: both;
+  padding-bottom: 5%;
+  font-size: 1.5em;
+}
+
+.resultado:hover {
+  cursor: pointer;
+}
+
+.video {
+  float: left;
+  margin-left: 9.99%;
+  margin-top: -5%;
+  height: 42.7%;
+  width: 42.7%;
+  background-color: white;
+}
+
+#signwrite {
+  clear: both;
+  position: absolute;
+  background-color: white;
+  height: 20%;
+  width: 15%;
+  top: 64.0%;
+  right: 39%;
+  overflow: hidden;
+}
+
+#swimg {
+  position: absolute;
+}
+
+#definition-field {
+  clear: both;
+  position: absolute;
+  background-color: white;
+  height: 20%;
+  width: 25%;
+  top: 64.0%;
+  right: 11%;
+  border-radius: 25px;
+}
+
+#def-text {
+  resize: none;
+  height: 100%;
+  width: 100%;
+  border: 2px solid #D1D1F5;
+  border-radius: 25px;
+  background-color: white;
+  margin: 5px;
+  display: none;
+  padding: 10px;
+}
+
+#footer {
+  bottom: 0;
+  height: 5.2%;
+}
+
+#ufs {
+  position: absolute;
+  height: 100%;
+  width: 3.5%;
+  margin-left: 2%;
+}
+
+#ufsnome {
+  clear: both;
+  float: left;
+  position: absolute;
+  margin-left: 6%;
+  top: 60%;
+}
+
+.credito {
+  clear: both;
+  float: right;
+  font-size: 1.3em;
+  cursor: pointer;
+  padding-right: 5%;
+  padding-top: 1%;
+}
+
+.apresenta {
+  float: right;
+  font-size: 1.3em;
+  cursor: pointer;
+  padding-right: 1%;
+  padding-top: 1%;
+}
+
+#PopBackColor {
+  clear: both;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: none;
+  background-color: rgba(0,0,0,0.8);
+  overflow: hidden;
+}
+
+#Credbox {
+  clear: both;
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  background-color: rgba(0,0,0,0);
+  top: 5%;
+  border: none;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: none;
+}
+
+#Apbox {
+  clear: both;
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  background-color: rgba(0,0,0,0);
+  margin-top: 5%;
+  border: none;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: none;
+}
+
+#sem-resultado {
+  font-size: 1.5em;
+  float: left;
+  clear: both;
+  padding-bottom: 5%;
+}
+
+#credito-if {
+  position: absolute;
+  border: none;
+}
+
+#creditotxt {
+  position: absolute;
+  border: none;
+}
+
+
+#AddBox {
+  clear: both;
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  background-color: white;
+  margin-top: 5%;
+  border: none;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: none;
+  /*visibility: visible;*/
+  /*pointer-events: visible;*/
+}

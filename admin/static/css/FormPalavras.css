@@ -1,0 +1,94 @@
+.AddField {
+  display: inline-block;
+  /*float: left;*/
+  width: 90%;
+  height: 6%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 17px;
+  color: #95989A;
+  background-color: #D1D1F5;
+  background-size: 25px;
+  background-position: 20px 1px;
+  background-repeat: no-repeat;
+  padding: 0.5% 0% 0.5% 0%;
+  margin-left: 3%;
+  margin-top: 5%;
+  outline: 0;
+}
+
+.AddFieldComent {
+  display: inline-block;
+  width: 90%;
+  height: 11%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 17px;
+  color: #95989A;
+  background-color: #D1D1F5;
+  background-size: 25px;
+  background-position: 20px 1px;
+  background-repeat: no-repeat;
+  padding: 0.5% 0% 0.5% 0%;
+  margin-left: 3%;
+  margin-top: 5%;
+  outline: 0;
+}
+
+
+
+.Button {
+  background-color: #D1D1F5;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 10%;
+}
+
+.Button:hover{
+    cursor: pointer;
+}
+
+#addInputFile{
+  width: 100%;
+  display: none;
+}
+
+label {
+  width: 100%;
+  cursor: pointer;
+}
+
+label:hover {
+  color: #696969;
+}
+
+#addbt {
+  /*position: absolute;*/
+  float: left;
+  width: 30%;
+  height: 6%;
+  margin-left: 3%;
+  margin-top: 6%;
+}
+
+
+#addCategoria {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #D1D1F5;
+  background-position: 100% center;
+}
+
+#file-name{
+    background-color: #D1D1F5;
+    border: 0;
+    color: #95989A;
+}

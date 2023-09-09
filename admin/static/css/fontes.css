@@ -1,0 +1,58 @@
+@font-face{
+    font-family: 'AllerDisplay';
+    font-style: normal;
+    font-weight: normal;
+    src: local('AllerDisplay'), url('../..//..//static/fonts/AllerDisplay.ttf') format('ttf');
+}
+
+.letters {
+  margin-left: 4%;  
+  color: #95989A;
+  font-size: 2.0em;
+}
+
+.lettersC{
+   margin-top: 2%; 
+   color: black;
+   font-size: 2.0em;
+}
+
+.lettersC:hover {
+  cursor: pointer;
+}
+
+
+/*ícone da barra de busca*/
+#input_query {
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #D1D1F5;
+  background-image: url('../../../static/img/lupa.png');
+  background-size: 12%;
+  background-position: 2% 40%;
+  background-repeat: no-repeat;
+  padding: 0.5% 0% 0.5% 10%;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  outline: 0;
+}
+
+#input_query:focus{
+    background-size: 6%;
+    width: 100%;
+}
+
+.resultado {
+  float: left;
+  clear: both;
+  padding-bottom: 2%;
+  font-size: 1em;
+}
+
+.resultado:hover {
+  cursor: pointer;
+}

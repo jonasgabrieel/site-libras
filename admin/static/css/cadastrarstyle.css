@@ -1,0 +1,51 @@
+#caduserimg{
+    float: right;
+    margin-right: 15%;
+    margin-top: 5%;
+    height: 30%;
+    width: 30%;
+}
+
+#cadaddfoto{
+  float: right;  
+  width: 15%;
+  background-color: #D1D1F5;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 10%;
+  margin-right: 20%;
+}
+
+#cadaddfoto:hover{
+    cursor: pointer;
+}
+
+#cadform{
+    float: left;
+    width: 37.75%;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+#cadlogoimg{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    height: 15%;
+    width: 8%;
+    margin-right: 20%;
+}
+
+#cadufsimg{
+    position: absolute;
+    right: 0%;
+    bottom: 1%;
+    height: 12%;
+    width: 15%;
+    margin-right: 3%;
+}
+

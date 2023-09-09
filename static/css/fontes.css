@@ -1,0 +1,36 @@
+@font-face{
+    font-family: 'AllerDisplay';
+    font-style: normal;
+    font-weight: normal;
+    src: local('AllerDisplay'), url('../..//..//static/fonts/AllerDisplay.ttf') format('ttf');
+}
+
+@font-face{
+  font-family: 'MyriadPro-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('MyriadPro-Regular'), url('../..//..//static/fonts/MyriadPro-Regular.otf') format('otf');
+}
+
+/*.letters {
+  margin-left: 4%;  
+  color: #95989A;
+  font-size: 2.0em;
+}*/
+
+.deffont{
+  font-family:  'MyriadPro-Regular';
+}
+
+.catfont{
+   margin-top: 2%; 
+   color: black;
+   font-size: 150%;
+   font-family:  'MyriadPro-Regular';
+}
+
+.mobile_op{ 
+  color: #E4EEEF;
+  font-size: 150%;
+  font-family:  'MyriadPro-Regular';
+}

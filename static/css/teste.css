@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    height: 100%;
+    font-family:Verdana;
+    color:black;
+    background-image: url(../img/fundo.jpg);
+    background-position: 100%;
+}
+
+
+#presentation{
+    position: absolute;
+    right: 150;
+    top: 30;
+    z-index: 1;
+}
+
+#creditos{
+    position: absolute;
+    right: 20;
+    top: 30;
+    z-index: 1;
+}
+
+#BuscarTxt{
+    float: left;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+#logo{
+    display: block;
+    margin: auto;
+    height: 168px;
+    width: 174px;
+}
+
+#top{
+    height: 17%; 
+    background-color: #7da2af;
+    padding:15px;
+    text-align:center;
+}
+
+#dic{
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    margin: auto;
+    height: 600px;
+    width: 1300px;
+    background-color: rgba(255,255,255,0);
+}
+
+#SearchSide{
+    float: left;
+    background-color: rgba(255,255,255,0);
+    height: 100%;
+    width: 50%;
+}
+  
+
+#BoxCat{
+    float: inherit;
+    margin-top: 50px;
+    margin-left: 10%;
+    background-color: rgba(255,255,255, 0);
+}
+
+.catfont{
+    margin: 13px;
+} 
+.catfont:hover{
+    cursor: pointer;    
+}
+
+#BoxPal{
+    float: left;
+    margin-top: 50px;
+    margin-left: 10%;
+    background-color: rgba(255,255,255, 0);
+}
+
+
+#foto{
+    height: 150px;
+    width: 150px;
+    margin-left: 50%;
+    margin-top: 50%;
+    background-color:rgba(255,255,255,0);
+}
+
+#logo_ufs{
+    position: absolute;
+    bottom: 0;
+    margin-left: 25px;
+    margin-bottom: 25px; 
+    height: 65px;
+    width: 99px;
+}
+
+
+#ShowSide{
+    float: left;
+    /* text-align: center; */
+    background-color:  rgba(255,255,255,0);
+    /* background-color: aquamarine; */
+    height: 100%;
+    width: 50%;
+    display: table;
+}
+
+.arrow:hover{
+    cursor: pointer;
+    height: 88px;
+       
+}
+
+#larrow{
+    float: left; 
+    height: 58px;
+    width: 47px;
+    margin-top: 240px;
+    margin-left: 10px;
+    display:none;
+}
+
+#palvideo{
+    margin-top: 120px;
+    margin-left: 100px;
+    resize: none;
+    width: 480px;
+    height: 270px;
+    background-color: rgba(255,255,255, 0);
+}
+
+#rarrow{
+    float:right;
+    height: 58px;
+    width: 47px;
+    margin-top: 240px;
+    display: none;
+}
+
+
+#palsw{
+    float: bottom;
+    margin-top: 50px;
+    margin-left: 90px;
+    height: 150px;
+    width: 150px;
+}
+
+
+#paldef{
+    float: right;
+    margin-top: 50px;
+    margin-right: 60px;
+    resize: none;
+    height: 150px;
+    width: 300px;
+    display: none;
+    border: 2px solid #D1D1F5;
+    border-radius: 25px;
+    background-color: white;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+#popup{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0,0,0, 0.8);
+    display: none;
+}
+
+#popup1{
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    top: 15%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border: none;
+}
+
+
+#mobile_up{
+    display: none;
+}

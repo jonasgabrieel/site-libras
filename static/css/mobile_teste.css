@@ -1,0 +1,188 @@
+  /* versão mobile  */
+  @media only screen and (max-width:620px) {
+
+    
+    body{
+        margin: 0;
+        height: 100%;
+        font-family:Verdana;
+        color:black;
+        background-image: url(../img/fundomobile.jpg);
+        background-position: 100%;
+    }
+
+    #mobile_op{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    #dic{
+        position: absolute;
+        top: 0; bottom: 0;
+        left: 0; right: 0;
+        margin: auto;
+        height: 380px;
+        width: 320px;
+        background-color: rgba(255,255,255,0);
+        overflow: hidden;
+    }
+
+    #mobile_up{
+        position: absolute;
+        height: 50px;
+        width: 100%;
+        display: inline;
+        background-color:#BAD9E2; 
+        z-index: 1;
+    }
+
+    .mobileicon:hover{
+        cursor: pointer;
+    }
+    #voltar{
+        float: left; 
+        height: 34.2px;
+        width: 30.8px;
+        margin-top: 7.5px;
+    }
+
+    #menu{
+        float: right; 
+        height: 34.2px;
+        width: 30.8px;
+        margin-top: 7.5px;
+    }
+
+    #buscar{
+        float: right; 
+        height: 34.2px;
+        width: 30.8px;
+        margin-top: 7.5px;
+    }
+
+    #mobile_down{
+        position: absolute;
+        bottom: 0%;
+        height: 50px;
+        width: 100%;
+        /* width: 320px; */
+        display: inline;
+        background-color:#BAD9E2;
+    }
+
+    #presentation{
+        display: none;
+    }
+
+    #BuscarTxt{
+        display: none;
+    }
+
+    #logo{
+        display: none;
+    }
+
+    #SearchSide{
+        float: left;
+        height: 380px;
+        width: 320px;
+        margin-top: 0px;
+        overflow: scroll;
+        background-color: rgba(255,255,255,0);
+        overflow: hidden;
+    }    
+
+    #BoxCat{
+        float: inherit;
+        max-height: 380px;
+        margin-top: 0px;
+        margin-left: 10%;
+        background-color: rgba(255,255,255, 0);
+        overflow: scroll;
+    }
+
+    #BoxPal{
+        float: inherit;
+        margin-top: 0px;
+        margin-left: 10%;
+        max-height: 380px;
+        background-color: rgba(255,255,255, 0);
+        display: none;
+    }
+
+    
+
+    #ShowSide{
+        clear: both;
+        height: 380px;
+        width: 320px;
+        margin-top: 50px;
+        overflow: scroll;
+        background-color: rgba(255,255,255,0);
+        overflow: hidden;
+        display: none;
+    }
+
+    #palvideo{
+        position: absolute;
+        left: -60px;
+        top: -70px;
+        width: 240px;
+        height: 135px;
+        /* margin-top: 20px;
+        margin-right: 800px;
+        resize: none;
+        width: 240px;
+        height: 135px; */
+        background-color: rgba(255,255,255, 0);
+        /* height: 100%;
+        width: 100%;
+        display: none; */
+    }
+
+    #palsw{
+        float: bottom;
+        margin-top: 150px;
+        margin-left: 85px;
+        height: 150px;
+        width: 150px;
+       
+    }
+
+    #logo_ufs{
+        position: absolute;
+        bottom: 0;
+        margin-left: 10px;
+        margin-bottom: 10px; 
+        height: 32.5px;
+        width: 49.5px;
+    }
+
+    #creditos{
+        display: none;
+    }
+
+    #paldef{
+        display: inline;
+    }
+
+    #larrow{
+        float: left; 
+        height: 58px;
+        width: 47px;
+        margin-top: 40px;
+        margin-left: -5px;
+        display:none;
+    }
+
+    #rarrow{
+        float:right;
+        height: 58px;
+        width: 47px;
+        margin-top: 40px;
+        margin-left: 5px;
+        display: none;
+    }
+
+
+  }
