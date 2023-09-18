@@ -66,7 +66,6 @@ function Corrige($string){
     </div>  
 
 <div id="mobile_down"></div>
-<img id="logo_ufs" src="fotos/UFS_50.png"> 
 
 </body>
 </html>
