@@ -29,11 +29,6 @@
           </form>
       </div>
       
-      <div id="ufsindex">
-          <img  src="../fotos/UFS_50.png" width="100%" height="100%">
-      </div>
-      
-      
       
   </body>
 </html>
