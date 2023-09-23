@@ -2,7 +2,7 @@
 $path = "fotos/Comidas Tipicas";
 $diretorio = dir($path);
 
-$conexao = mysqli_connect('localhost', 'mobdtc57_postgres', 'Libras147963Dicio','mobdtc57_PRODAP') or die("conexao falhou");
+$conexao = mysqli_connect('localhost', 'dicion05_usuario01', 'libras2023','dicion05_projetolibras') or die("conexao falhou");
 
 echo "Lista de Arquivos do diretório '<strong>".$path."</strong>':<br />";
 $ext = ".png";

@@ -3,7 +3,7 @@ import psycopg2
 
 def capitalized():
 	#conn = psycopg2.connect('dbname=PRODAP user=postgres password=123 port=5432')
-	conn = psycopg2.connect(host='localhost', database='PRODAP', user='postgres', password='123')
+	conn = psycopg2.connect(host='localhost', database='dicion05', user='usuario01', password='123')
 	cur = conn.cursor()
 
 	tables = ['Bairros','Bancos', 'Categorias', 'Cidades','Comidas','Instituicoes','Lojas','Municipios','Pontos','Supermercados']
