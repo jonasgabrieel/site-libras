@@ -53,7 +53,7 @@ function Corrige($string){
     
    <div id="RemoveBoxCat">
       <?php
-      $conexao = mysqli_connect('localhost', 'mobdtc57_postgres', 'Libras147963Dicio','mobdtc57_PRODAP') or die("Erro ao conectar com o banco de dados");
+      $conexao = mysqli_connect('localhost', 'dicion05_usuario01', 'libras2023','dicion05_projetolibras') or die("Erro ao conectar com o banco de dados");
 
       $result = mysqli_query($conexao,"SELECT * FROM Categorias order by nome;");
       

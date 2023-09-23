@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect('localhost', 'mobdtc57_postgres', 'Libras147963Dicio','mobdtc57_PRODAP') or die("Erro ao conectar com o banco de dados");
+$conn = mysqli_connect('localhost', 'dicion05_usuario01', 'libras2023','dicion05_projetolibras') or die("Erro ao conectar com o banco de dados");
 
 //$query = "SELECT TABLE_NAME FROM \"PRODAP\".INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE';";
 $query = "SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA LIKE 'mobdtc57_PRODAP';";

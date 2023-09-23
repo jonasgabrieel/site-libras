@@ -2,7 +2,7 @@
 $conn =   mysqli_close($conexao); or die("Erro ao conectar com o banco de dados");
 
 //$query = "SELECT TABLE_NAME FROM \"PRODAP\".INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE';";
-$res = mysql_list_tables($conn, "mobdtc57_PRODAP");
+$res = mysql_list_tables($conn, "dicion05_projetolibras");
 
 $tables = [];
 while ($row = mysqli_fetch_assoc($res)) {
