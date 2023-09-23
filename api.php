@@ -6,7 +6,7 @@ function Corrige($string){
 //$conexao = pg_connect("host=ec2-54-204-36-249.compute-1.amazonaws.com port=5432 dbname=d9l7hacq1ajsfb user=akyhdjwbvmcoor password=d3e1ccba06f8cbd064c1e3558c567575645c7ef9dd698b2bc71bc96f4fff6f5b") 
 //                    or die("Erro ao conectar com o banco de dados");
 
-$conexao = mysqli_connect('localhost', 'mobdtc57_postgres', 'Libras147963Dicio','mobdtc57_PRODAP') 
+$conexao = mysqli_connect('localhost', 'dicion05_usuario01', 'libras2023','dicion05_projetolibras') 
                     or die("Erro ao conectar com o banco de dados");
 
 

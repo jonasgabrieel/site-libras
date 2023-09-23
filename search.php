@@ -1,5 +1,5 @@
 <?php
-$conexao = mysqli_connect('localhost', 'mobdtc57_postgres', 'Libras147963Dicio','mobdtc57_PRODAP') or die("Erro ao conectar com o banco de dados");
+$conexao = mysqli_connect('localhost', 'dision05_usuario01', 'libras2023','dicion05_projetolibras') or die("Erro ao conectar com o banco de dados");
 $result = mysqli_query($conexao,"SELECT * FROM Palavras ORDER BY nome;");
 
 $links = [];
