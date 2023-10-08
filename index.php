@@ -41,7 +41,7 @@ function Corrige($string){
     <div id="dic">
        
          <div id="SearchSide">
-            <input type="text" id="BuscarTxt" placeholder="Buscar Palavra" autocomplete="off">     
+            <input type="text" id="BuscarTxt" placeholder="Buscar Palavras" autocomplete="off">     
             <div id="BoxCat">
                 <span id="cat_encontradas"></span>   
             </div>
