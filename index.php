@@ -10,6 +10,7 @@ function Corrige($string){
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="shortcut icon" href="icon/dicionario.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="static/css/teste.css">
     <link rel="stylesheet" type="text/css" href="static/css/mobile_teste.css">
     <link rel="stylesheet" type="text/css" href="static/css/fontes.css">
