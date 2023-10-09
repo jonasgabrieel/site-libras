@@ -13,8 +13,8 @@ function Corrige($string){
     <link rel="stylesheet" type="text/css" href="static/css/teste.css">
     <link rel="stylesheet" type="text/css" href="static/css/mobile_teste.css">
     <link rel="stylesheet" type="text/css" href="static/css/fontes.css">
-    <link rel="stylesheet" type="text/css" href="static/css/Buscar.css"
-    
+    <link rel="stylesheet" type="text/css" href="static/css/Buscar.css">
+
     <script src="static/js/teste.js" type="text/javascript"></script>
  
   </head>
