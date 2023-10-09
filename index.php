@@ -30,6 +30,8 @@ function Corrige($string){
     <meta name="msapplication-TileColor" content="#416f97">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#416f97">
+
+    
     <script src="static/js/teste.js" type="text/javascript"></script>
  
   </head>
